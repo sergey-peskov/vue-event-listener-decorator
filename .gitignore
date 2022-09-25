@@ -1,0 +1,7 @@
+dist
+node_modules
+npm-debug.log
+.vscode/setting.json
+.idea
+yarn-error.log
+coverage
