@@ -1,6 +1,6 @@
 {
   "name": "vue-event-listener-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "window or document event listener decorator for vue-class-component",
   "main": "dist/index.umd.js",
   "scripts": {
