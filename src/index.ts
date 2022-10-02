@@ -8,7 +8,7 @@ export function VueEventListenerDecorator<
 >(target: TTarget, eventName: TEventName, options?: AddEventListenerOptions) {
 	return createDecorator((componentOptions, handler) => {
 		if (typeof componentOptions.methods![handler] !== 'function') {
-			throw new TypeError('watch handler is not a function');
+			throw new TypeError('handler is not a function');
 		}
 		let mounted = componentOptions.mounted;
 		let beforeDestroy = componentOptions.beforeDestroy;
